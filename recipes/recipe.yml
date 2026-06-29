@@ -18,7 +18,7 @@ modules:
         
   - type: script
     snippets:
-      - dnf config-manager --set-enabled fedora-cisco-openh264
+      - dnf config-manager setopt fedora-cisco-openh264.enabled=1
 
   - type: dnf
     install:
